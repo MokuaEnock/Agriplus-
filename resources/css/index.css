@@ -39,3 +39,19 @@ div {
   height: 10%;
   width: 20%;
 }
+#f_app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.f_app {
+  height: fit-content;
+  width: 40%;
+}
+#f_app1 {
+  margin-top: 10%;
+}
+.f_app1 {
+  height: 100%;
+  width: 100%;
+}
