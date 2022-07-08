@@ -5,7 +5,27 @@
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
-
+/*===================Main section 6(esteemed customers)=========================*/
+/*===================Main section 6(esteemed customers)=========================*/
+/*===================Main section 6(esteemed customers)=========================*/
+/*===================Main section 5(Newest Items)=========================*/
+#section5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 500px;
+}
+#sect5_cont {
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.card {
+  width: 22%;
+  height: 100%;
+}
 /*===================Main section 6(esteemed customers)=========================*/
 section div {
   border: 1px solid black;
