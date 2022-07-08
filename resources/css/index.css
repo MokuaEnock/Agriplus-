@@ -3,6 +3,43 @@
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
+section div {
+  border: 1px solid black;
+}
+/*===================Main section 1(intro)=========================*/
+#section1 {
+  height: 35vw;
+  width: 100%;
+  font-size: 1.6vw;
+  line-height: 3vw;
+  margin-top: 5%;
+}
+#sect1_cont {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#sect1_header {
+  padding-left: 10%;
+}
+#sect1_par1 {
+  padding-left: 10%;
+}
+#sect1_info {
+  padding-left: 10%;
+  height: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: left;
+}
+#sect1_info button {
+  height: 100%;
+  width: 34%;
+  font-size: 1.6vw;
+}
 /*===================Main section 2(why we exist)=========================*/
 #section2 {
   height: 40vw;
@@ -11,6 +48,7 @@
   flex-direction: row;
   justify-content: space-between;
   font-size: 1.7vw;
+  margin-top: 5%;
 }
 #sect2_div2 {
   width: 47%;
@@ -70,9 +108,6 @@
   height: 100%;
 }
 /*===================Main section 6(esteemed customers)=========================*/
-section div {
-  border: 1px solid black;
-}
 #section6 {
   margin-top: 10%;
   display: flex;
