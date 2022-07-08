@@ -4,7 +4,17 @@
   scroll-snap-stop: always;
 }
 /*===================Main section 6(esteemed customers)=========================*/
-/*===================Main section 6(esteemed customers)=========================*/
+/*===================Main section 3(Products and categories)=========================*/
+#section3 {
+  height: 10vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3vw;
+}
+
 /*===================Main section 4(Most Popular)=========================*/
 #section4 {
   display: flex;
