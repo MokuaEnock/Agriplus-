@@ -5,8 +5,30 @@
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
-div {
-  border: 1px solid white;
+
+/*===================Main section 6(esteemed customers)=========================*/
+section div {
+  border: 1px solid black;
+}
+#section6 {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+}
+#sect6_head {
+  margin-bottom: 2%;
+}
+#sect6_cont {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 90%;
+}
+.card2 {
+  width: 30%;
+  height: 100%;
 }
 /*=====================Footer===========================*/
 /*======Footer Section 1=========*/
