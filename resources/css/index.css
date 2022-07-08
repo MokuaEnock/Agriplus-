@@ -10,23 +10,32 @@ div {
 }
 /*=====================Footer===========================*/
 #footer {
-  height: 50vw;
+  height: 500px;
   width: 100%;
   margin-top: 10%;
   text-align: center;
+  font-size: 150%;
 }
 #foot_container {
+  height: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 #f_cont1 {
   width: 40%;
-  height: 40vw;
   text-align: center;
 }
 .f_conts {
-  height: 40vw;
   width: 20%;
   text-align: left;
+}
+#f_icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.f_icons {
+  height: 10%;
+  width: 20%;
 }
