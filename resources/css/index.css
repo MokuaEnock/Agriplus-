@@ -3,7 +3,32 @@
   scroll-snap-align: start;
   scroll-snap-stop: always;
 }
-/*===================Main section 6(esteemed customers)=========================*/
+/*===================Main section 2(why we exist)=========================*/
+#section2 {
+  height: 40vw;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1.7vw;
+}
+#sect2_div2 {
+  width: 47%;
+  height: 100%;
+}
+#sect2_div1 {
+  width: 47%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#sect2_info {
+  width: 80%;
+  text-align: left;
+}
+
 /*===================Main section 3(Products and categories)=========================*/
 #section3 {
   height: 10vw;
@@ -13,6 +38,7 @@
   justify-content: center;
   align-items: center;
   font-size: 1.3vw;
+  margin-top: 5%;
 }
 
 /*===================Main section 4(Most Popular)=========================*/
