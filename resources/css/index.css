@@ -130,3 +130,16 @@ footer {
   font-size: 150%;
   font-weight: 600;
 }
+#app {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.app {
+  width: 50%;
+  margin-top: 10%;
+}
+.badge {
+  height: 100%;
+  width: 100%;
+}
