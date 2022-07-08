@@ -10,7 +10,7 @@ div {
 }
 /*=====================Footer===========================*/
 #footer {
-  height: 80vw;
+  height: 50vw;
   width: 100%;
   margin-top: 10%;
   text-align: center;
@@ -22,9 +22,11 @@ div {
 }
 #f_cont1 {
   width: 40%;
-  height: 70vw;
+  height: 40vw;
+  text-align: center;
 }
 .f_conts {
-  height: 70vw;
+  height: 40vw;
   width: 20%;
+  text-align: left;
 }
