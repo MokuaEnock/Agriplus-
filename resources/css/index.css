@@ -7,6 +7,12 @@
 section div {
   border: 1px solid black;
 }
+strong {
+  text-decoration: underline;
+  text-decoration-color: #ed661f;
+  text-underline-position: under;
+  text-decoration-thickness: 20%;
+}
 /*===================Main section 1(intro)=========================*/
 #header {
   display: flex;
@@ -200,12 +206,6 @@ section div {
   font-size: 2vw;
   font-weight: 800;
 }
-#section3 strong {
-  text-decoration: underline;
-  text-decoration-color: #ed661f;
-  text-underline-position: under;
-  text-decoration-thickness: 20%;
-}
 
 /*===================Main section 4(Most Popular)=========================*/
 #section4 {
@@ -219,11 +219,32 @@ section div {
 #sect5_header h3 {
   font-size: 2vw;
 }
-#sect5_header strong {
-  text-decoration: underline;
-  text-decoration-color: #ed661f;
-  text-underline-position: under;
-  text-decoration-thickness: 20%;
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  height: 100%;
+}
+.card_img {
+  height: 55%;
+  width: 100%;
+}
+.card_head {
+  height: 15%;
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.6vw;
+}
+.card_par1 {
+  height: 15%;
+  width: 100%;
+  font-size: 1.4vw;
+}
+.card_par2 {
+  height: 15%;
+  width: 100%;
+  font-size: 1.4vw;
 }
 /*===================Main section 5(Newest Items)=========================*/
 #section5 {
