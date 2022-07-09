@@ -106,9 +106,13 @@ section div {
 }
 #sect1_header {
   padding-left: 10%;
+  font-size: 2vw;
+  font-weight: 800;
+  line-height: 3.4vw;
 }
 #sect1_par1 {
   padding-left: 10%;
+  font-weight: 200;
 }
 #sect1_info {
   padding-left: 10%;
