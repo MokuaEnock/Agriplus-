@@ -2,6 +2,7 @@
   scroll-behavior: smooth;
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  font-family: "Poppins", sans-serif;
 }
 section div {
   border: 1px solid black;
@@ -11,9 +12,11 @@ section div {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 10vw;
+  height: 6vw;
   width: 100%;
-  margin-top: 3%;
+  margin-top: 1%;
+  font-size: 1.5vw;
+  background-color: black;
   /*position: fixed;
   top: -10%;*/
 }
@@ -25,19 +28,32 @@ section div {
   justify-content: center;
   align-items: center;
 }
+#logo h1 {
+  font-size: 1.9vw;
+  color: white;
+  font-weight: 800;
+}
 #head_info {
   width: 60%;
   height: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  color: white;
+  font-weight: 600;
+}
+.h_info:hover {
+  text-decoration: underline;
+  text-decoration-color: #ed661f;
+  text-decoration-thickness: 4px;
 }
 #head_cred {
   width: 20%;
   height: 100%;
+  padding-right: 3%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 .h_info {
@@ -47,8 +63,31 @@ section div {
   justify-content: center;
   align-items: center;
 }
-.head_bt {
-  width: 50%;
+
+#head_b1 {
+  width: 35%;
+  height: 40%;
+}
+#head_b1 button {
+  color: white;
+  font-weight: 600;
+  background-color: transparent;
+}
+#head_b2 {
+  width: 60%;
+  height: 60%;
+  background-color: #ed661f;
+  color: white;
+}
+#head_b2 button {
+  background-color: #ed661f;
+  color: white;
+  font-weight: 600;
+}
+.head_bt button {
+  height: 100%;
+  width: 100%;
+  font-size: 1.5vw;
 }
 /*===================Main section 1(intro)=========================*/
 #section1 {
