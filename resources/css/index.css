@@ -172,7 +172,7 @@ section div {
   text-decoration: underline;
   text-decoration-color: #ed661f;
   text-underline-position: under;
-  text-decoration-thickness: 4px;
+  text-decoration-thickness: 20%;
 }
 #sect2_info {
   width: 80%;
@@ -195,6 +195,16 @@ section div {
   align-items: center;
   font-size: 1.3vw;
   margin-top: 5%;
+}
+#scetion3 h3 {
+  font-size: 2vw;
+  font-weight: 800;
+}
+#section3 strong {
+  text-decoration: underline;
+  text-decoration-color: #ed661f;
+  text-underline-position: under;
+  text-decoration-thickness: 20%;
 }
 
 /*===================Main section 4(Most Popular)=========================*/
