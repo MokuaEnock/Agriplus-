@@ -465,6 +465,8 @@ footer {
   width: 70%;
   height: 100%;
   padding-left: 10%;
+  background-color: white;
+  color: black;
 }
 #ft1p2_2 {
   display: flex;
@@ -480,6 +482,7 @@ footer {
   color: white;
   height: 100%;
   width: 100%;
+  font-size: 1.5vw;
 }
 /*=========Footer section 2===========*/
 #footer2 {
