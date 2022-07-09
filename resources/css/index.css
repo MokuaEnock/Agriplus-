@@ -426,136 +426,58 @@ main {
 }
 /*=====================Footer===========================*/
 /*======Footer Section 1=========*/
+footer div {
+  border: 1px solid black;
+}
 footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  margin-top: 10%;
-  margin-bottom: 2%;
+  margin-top: 3%;
 }
-/*=========Footer section 1============*/
-#f2_container {
-  width: 100%;
-  height: 90%;
-}
-#f1_cont1 {
+/*============footer section 1=================*/
+#footer1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 3%;
-  font-size: 150%;
   align-items: center;
-  height: 400px;
-}
-#f1_cont1 h2 {
-  font-size: 250%;
-}
-#f1_cont1_1 {
-  line-height: 250%;
-  width: 50%;
-}
-#f1_cont1_2 {
-  width: 40%;
-  height: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-#cont1_1 {
-  height: 100%;
-  width: 70%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: white;
-  color: black;
-}
-
-#cont1_2 {
-  height: 100%;
-  width: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-#cont1_2 button {
-  height: 100%;
   width: 100%;
+  height: 15vw;
+  font-size: 1.7vw;
+  color: white;
+  background-color: black;
+}
+#ft1_par1 {
+  height: 70%;
+  width: 45%;
+  text-align: center;
+}
+#ft1_par2 {
+  height: 30%;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#ft1p2_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  height: 100%;
+  padding-left: 10%;
+}
+#ft1p2_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+#ft1p2_2 button {
+  border: none;
   background-color: #ed661f;
   color: white;
-  font-size: 2vw;
-}
-
-/*===========footer 2===================*/
-#footer2 {
-  color: white;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
-#f2_container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-#f2_cont1 {
-  width: 40%;
-  height: 100%;
-}
-.f2_conts {
-  width: 30%;
-  height: 100%;
-}
-#f2_cont1 {
-  text-align: left;
-  padding-left: 2%;
-  line-height: 200%;
-  font-size: 150%;
-}
-#ft_icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.icons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: white;
-  border-radius: 50%;
-}
-.f2_conts {
-  height: 100%;
-  text-align: left;
-  padding-left: 5%;
-  font-size: 150%;
-  line-height: 200%;
-}
-.f2_conts h4 {
-  font-size: 180%;
-}
-#par1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  font-size: 150%;
-  font-weight: 600;
-}
-#app {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-}
-.app {
-  width: 50%;
-  margin-top: 10%;
-}
-.badge {
   height: 100%;
   width: 100%;
 }
