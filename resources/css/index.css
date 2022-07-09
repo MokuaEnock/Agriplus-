@@ -279,6 +279,7 @@ main {
   margin-top: 10%;
   display: flex;
   flex-direction: column;
+  justify-content: baseline;
   height: 40vw;
 }
 #sect6_head {
@@ -294,6 +295,33 @@ main {
 .card2 {
   width: 30%;
   height: 100%;
+}
+.rating {
+  height: 20%;
+  width: 100%;
+}
+.opinion {
+  height: 60%;
+  width: 100%;
+}
+.card2_info {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.c2info_img {
+  width: 30%;
+  height: 100%;
+}
+.c2info_name {
+  width: 70%;
+  height: 100%;
+  font-size: 1.4vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 /*=====================Footer===========================*/
 /*======Footer Section 1=========*/
