@@ -215,10 +215,10 @@ main {
 #section4 {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   width: 100%;
-  height: 40vw;
-  margin-top: 6%;
+  height: fit-content;
+  margin-top: 3%;
 }
 #sect5_header h3 {
   font-size: 2vw;
@@ -226,30 +226,39 @@ main {
 .card {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 20%;
-  height: 100%;
+  height: fit-content;
 }
 .card_img {
-  height: 55%;
+  height: 50%;
   width: 100%;
 }
 .card_head {
-  height: 15%;
+  height: 8%;
   width: 100%;
   font-weight: 600;
   font-size: 1.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .card_par1 {
-  height: 15%;
+  height: 8%;
   width: 100%;
   font-size: 1.4vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .card_par2 {
-  height: 15%;
+  height: 5%;
   width: 100%;
   font-size: 1.4vw;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .image_card1 {
   height: 100%;
@@ -261,8 +270,8 @@ main {
   flex-direction: column;
   justify-content: space-evenly;
   width: 100%;
-  height: 50vw;
-  margin-top: 6%;
+  height: fit-content;
+  margin-top: 3%;
 }
 #sect5_cont {
   height: 90%;
@@ -276,7 +285,6 @@ main {
 }
 /*===================Main section 6(esteemed customers)=========================*/
 #section6 {
-  margin-top: 3%;
   display: flex;
   flex-direction: column;
   justify-content: baseline;
