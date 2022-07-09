@@ -276,14 +276,16 @@ main {
 }
 /*===================Main section 6(esteemed customers)=========================*/
 #section6 {
-  margin-top: 10%;
+  margin-top: 3%;
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  height: 40vw;
+  height: fit-content;
 }
 #sect6_head {
   margin-bottom: 2%;
+  font-size: 2vw;
+  font-weight: 800;
 }
 #sect6_cont {
   width: 100%;
@@ -293,11 +295,11 @@ main {
   height: 90%;
 }
 .card2 {
-  width: 30%;
-  height: 100%;
+  width: 27%;
+  height: fit-content;
 }
 .rating {
-  height: 20%;
+  height: 15%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -305,17 +307,20 @@ main {
   align-items: center;
 }
 .opinion {
-  height: 60%;
+  height: 40%;
   width: 100%;
-  font-size: 2vw;
+  font-size: 1.8vw;
   font-weight: 800;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .opinion p {
   padding-left: 10%;
   padding-right: 10%;
 }
 .card2_info {
-  height: 20%;
+  height: 10%;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -335,15 +340,18 @@ main {
 .c2info_name {
   width: 70%;
   height: 100%;
-  font-size: 1.6vw;
+  font-size: 1.3vw;
   font-weight: 800;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 .star {
-  height: 100%;
-  width: 20%;
+  height: 40%;
+  width: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 .star1 {
   height: 100%;
@@ -366,7 +374,6 @@ main {
   justify-content: space-between;
   padding-left: 80%;
   width: 17%;
-  margin-top: 9%;
 }
 #sc6_info_par {
   display: flex;
