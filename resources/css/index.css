@@ -129,9 +129,8 @@ main {
 }
 #sect1_header {
   padding-left: 10%;
-  font-size: 2vw;
-  font-weight: 800;
-  line-height: 3.4vw;
+  font-size: 1.7vw;
+  font-weight: 600;
 }
 #sect1_par1 {
   padding-left: 10%;
@@ -152,6 +151,30 @@ main {
   background-color: #ed661f;
   color: white;
   border: none;
+}
+#stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 10vw;
+  width: 60%;
+  margin-left: 25%;
+  margin-top: -6.8%;
+  background-color: white;
+}
+.stat1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+}
+.stat1_head {
+  font-size: 1.2vw;
+}
+.stat1_par {
+  font-size: 1.1vw;
 }
 /*===================Main section 2(why we exist)=========================*/
 #section2 {
