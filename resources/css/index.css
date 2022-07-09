@@ -327,6 +327,10 @@ main {
 .c2info_img {
   width: 30%;
   height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .c2info_name {
   width: 70%;
@@ -344,6 +348,10 @@ main {
 .star1 {
   height: 100%;
   width: 100%;
+}
+.person {
+  height: 100%;
+  width: 70%;
 }
 /*=====================Footer===========================*/
 /*======Footer Section 1=========*/
