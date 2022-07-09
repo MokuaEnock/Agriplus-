@@ -245,6 +245,11 @@ strong {
   height: 15%;
   width: 100%;
   font-size: 1.4vw;
+  font-weight: 600;
+}
+.image_card1 {
+  height: 100%;
+  width: 100%;
 }
 /*===================Main section 5(Newest Items)=========================*/
 #section5 {
