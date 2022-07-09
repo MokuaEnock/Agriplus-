@@ -307,6 +307,12 @@ main {
 .opinion {
   height: 60%;
   width: 100%;
+  font-size: 2vw;
+  font-weight: 800;
+}
+.opinion p {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .card2_info {
   height: 20%;
@@ -315,6 +321,9 @@ main {
   flex-direction: row;
   justify-content: space-between;
 }
+.card2_info p {
+  padding-left: 10%;
+}
 .c2info_img {
   width: 30%;
   height: 100%;
@@ -322,12 +331,20 @@ main {
 .c2info_name {
   width: 70%;
   height: 100%;
-  font-size: 1.4vw;
+  font-size: 1.6vw;
+  font-weight: 800;
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-
+.star {
+  height: 100%;
+  width: 20%;
+}
+.star1 {
+  height: 100%;
+  width: 100%;
+}
 /*=====================Footer===========================*/
 /*======Footer Section 1=========*/
 footer {
