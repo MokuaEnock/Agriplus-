@@ -481,3 +481,87 @@ footer {
   height: 100%;
   width: 100%;
 }
+/*=========Footer section 2===========*/
+#footer2 {
+  margin-top: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 35vw;
+  width: 100%;
+  font-size: 1.5vw;
+  color: white;
+  background-color: black;
+}
+#f2_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#f2_main {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.f2_divs {
+  font-size: 1.3vw;
+  width: 17%;
+  height: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.f2_divs h5 {
+  font-size: 1.7vw;
+  font-weight: 800;
+}
+
+#f2_main h3 {
+  font-size: 1.7vw;
+  font-weight: 800;
+}
+#f2_main p {
+  font-size: 1.4vw;
+  font-weight: 400;
+}
+#f2_main_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 60%;
+}
+.f_img {
+  width: 80%;
+  height: 80%;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+#f2_main h4 {
+  font-size: 1.7vw;
+  font-weight: 800;
+}
+#app_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+#badge_cont {
+  width: 50%;
+}
+.badge {
+  width: 100%;
+  height: 100%;
+}
