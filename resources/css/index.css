@@ -22,11 +22,11 @@ main {
   justify-content: space-between;
   height: 6vw;
   width: 100%;
-  margin-top: 1%;
+
   font-size: 1.5vw;
   background-color: black;
-  /*position: fixed;
-  top: -1%;*/
+  position: fixed;
+  top: 0;
 }
 #logo {
   width: 10%;
