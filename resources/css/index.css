@@ -308,6 +308,15 @@ a {
   width: 22%;
   height: 100%;
 }
+#bar {
+  margin-top: 1%;
+  height: 1.5vw;
+  width: 100%;
+
+  padding-bottom: 1%;
+  background-color: gray;
+  opacity: 0.5;
+}
 /*===================Main section 6(esteemed customers)=========================*/
 #section6 {
   display: flex;
@@ -330,6 +339,7 @@ a {
 .card2 {
   width: 27%;
   height: fit-content;
+  box-shadow: 0 2px 5px grey;
 }
 .rating {
   height: 15%;
