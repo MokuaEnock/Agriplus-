@@ -109,10 +109,13 @@ a {
   font-size: 1.6vw;
   line-height: 3vw;
   margin-top: 5%;
-  background-image: url(/resources/Assets/image_1.png);
+  background-image: url(/resources/css/image_1.png);
   background-size: contain;
   display: flex;
   flex-direction: row;
+}
+#secct1_img1 {
+  z-index: 2;
 }
 #sect1_img {
   height: 50%;
