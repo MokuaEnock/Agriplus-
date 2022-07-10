@@ -115,11 +115,14 @@ a {
   flex-direction: row;
 }
 #sect1_img {
-  height: 100%;
+  height: 50%;
   width: 40%;
-  background-image: url(/resources/Assets/image_2.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+#sect1_img2 {
+  height: 100%;
+  width: 100%;
 }
 #sect1_cont {
   width: 50%;
@@ -217,8 +220,11 @@ a {
 #sect2_div2 {
   height: 100%;
   width: 50%;
-  background-image: url(/resources/Assets/image_3.png);
   background-size: contain;
+}
+#sect2_img {
+  height: 100%;
+  width: 100%;
 }
 /*===================Main section 3(Products and categories)=========================*/
 #section3 {
