@@ -21,7 +21,7 @@
 ## About The Project
 
 We will be reproducing a landing page for Agriplus an Ecommerce company in operating from Kenya here is the page.
-![Agriplus](./resources/Assets/top.jpg)
+![Agriplus](./resources/Assets/lpip.png)
 
 ### Built With
 
